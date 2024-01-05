@@ -4,7 +4,7 @@
 ## Description
 
 This project in the System engineering & DevOps ― Networking series is about:
-* OSI model concepts and fundamentals
+I model concepts and fundamentals
 * LAN concepts, usage and geographical size
 * WAN concepts, usage and geographical size
 * What is the Internet

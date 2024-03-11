@@ -9,9 +9,11 @@ frontend estebanweb
     bind *:80
     mode http
     default_backend app
+
 backend app
     balance roundrobin
     server 453115-web-01 3.84.161.230:80 check
-    server 453115-web-02 	54.237.36.190:80 check" >> /etc/haproxy/haproxy.cfg
+    server 453115-web-02 54.237.36.190:80 check
+" >> /etc/haproxy/haproxy.cfg
 
 sudo service haproxy restart
